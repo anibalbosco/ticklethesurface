@@ -1,4 +1,3 @@
-<!-- script.js -->
 document.addEventListener("DOMContentLoaded", function() {
     includeHTML();
     loadContent();
@@ -20,14 +19,13 @@ function loadContent() {
     const pageIdToJsonFile = {
         "research-content": "data/research.json",
         "publications-content": "data/publications.json",
-        "team-content": "data/team.json",
-        "resources-content": "data/resources.json",
-        "main-content": "data/index.json",
-        "press-content": "data/press.json",
         "current-members": "data/current_members.json",
         "alumni": "data/alumni.json",
         "guests": "data/guests.json",
-        "past-guests": "data/past_guests.json"
+        "past-guests": "data/past_guests.json",
+        "resources-content": "data/resources.json",
+        "press-content": "data/press.json",
+        "main-content": "data/index.json"
     };
 
     Object.keys(pageIdToJsonFile).forEach(pageId => {
@@ -45,34 +43,6 @@ function loadContent() {
                 .catch(error => console.error('Error loading content:', error));
         }
     });
-}
-
-function generateContentHTML(data) {
-    let html = "";
-    if (data.title) {
-        html += `<h2>${data.title}</h2>`;
-    }
-    if (data.description) {
-        html += `<p>${data.description}</p>`;
-    }
-    if (data.items && Array.isArray(data.items)) {
-        html += "<div class='content-items'>";
-        data.items.forEach(item => {
-            html += `<div class='card'>`;
-            if (item.title) {
-                html += `<h3>${item.title}</h3>`;
-            }
-            if (item.description) {
-                html += `<p>${item.description}</p>`;
-            }
-            if (item.link) {
-                html += `<a href='${item.link}' target='_blank'>Read more</a>`;
-            }
-            html += `</div>`;
-        });
-        html += "</div>";
-    }
-    return html;
 }
 
 function generateTeamContentHTML(data) {
@@ -123,4 +93,3 @@ function generatePublicationsHTML(data) {
     }
     return html;
 }
-
