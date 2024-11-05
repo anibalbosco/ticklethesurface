@@ -23,7 +23,11 @@ function loadContent() {
         "team-content": "data/team.json",
         "resources-content": "data/resources.json",
         "main-content": "data/index.json",
-        "press-content": "data/press.json"
+        "press-content": "data/press.json",
+        "current-members": "data/current_members.json",
+        "alumni": "data/alumni.json",
+        "guests": "data/guests.json",
+        "past-guests": "data/past_guests.json"
     };
 
     Object.keys(pageIdToJsonFile).forEach(pageId => {
