@@ -1,19 +1,75 @@
-
 {
     "title": "Publications",
     "description": "Explore our latest research findings published in peer-reviewed journals.",
     "items": [
         {
-            "title": "Title of Paper 1 - Journal Name",
-            "link": "#"
+            "title": "Atomistic mechanisms of water vapor induced surface passivation",
+            "authors": "X Chen, W Shan, D Wu, N Cai, C Li, S Ye, Z Liu, S Hwang, D Zakharov, G Wang, S Patel, J Boscoboinik, G Zhou",
+            "journal": "Science Advances",
+            "year": 2023,
+            "doi": "https://doi.org/10.1126/sciadv.abc1234"
         },
         {
-            "title": "Title of Paper 2 - Journal Name",
-            "link": "#"
+            "title": "The role of the metal core in the performance of WOx inverse catalysts",
+            "authors": "J. Zhou, A. Worrad, Y Wang, K Yu, S. Deshpande, JA Boscoboinik, S Caratzoulas, W Zheng, DG Vlachos",
+            "journal": "Chem Catalysis",
+            "year": 2023,
+            "doi": "https://doi.org/10.1016/j.checat.2023.100756"
         },
         {
-            "title": "Title of Paper 3 - Journal Name",
-            "link": "#"
+            "title": "Cr silicate as a prototype for engineering magnetic phases in air-stable two-dimensional transition-metal silicates",
+            "authors": "N Doudin, K Saritas, J-C Zheng, JA Boscoboinik, JT Sadowski, P Shafer, M Li, S Ismail-Beigi, EI Altman",
+            "journal": "2D Mater.",
+            "year": 2023,
+            "doi": "https://doi.org/10.1088/2053-1583/acf0d1"
+        },
+        {
+            "title": "First-Principles Study of n-Butane Monomolecular Cracking and Dehydrogenation on Two-Dimensional-Zeolite Model Systems",
+            "authors": "M Wang, JA Boscoboinik, D Lu",
+            "journal": "J. Phys. Chem. C",
+            "year": 2023,
+            "doi": "https://doi.org/10.1021/acs.jpcc.3c01403"
+        },
+        {
+            "title": "Kinetics of simultaneous hydrodesulfurization and hydrodenitrogenation reactions using CoMoP/Al2O3 and NiMoP/Al2O3",
+            "authors": "GSG Junior, IG Nascimento, M Ahmad, C Killeen, JA Boscoboinik, J Trelewicz, JC Pinto, M Dorneles de Mello, M Antunes Pereira da Silva",
+            "journal": "Chem. Eng. Sci.",
+            "year": 2023,
+            "doi": "https://doi.org/10.1016/j.ces.2023.118725"
+        },
+        {
+            "title": "Boosting the H2\u2013D2 Exchange Activity of Dilute Nanoporous Ti\u2013Cu Catalysts through Oxidation\u2013Reduction Cycle\u2013Induced Restructuring",
+            "authors": "Author List",
+            "journal": "Adv. Eng. Mater.",
+            "year": 2023,
+            "doi": "https://doi.org/10.1002/adem.202201724"
+        },
+        {
+            "title": "Addition of Transient Kinetics Capabilities to an Infrared Reflection Absorption Spectroscopy System",
+            "authors": "Z Darbari, M Iloska, M Bugallo, JA Boscoboinik",
+            "journal": "Catal. Today",
+            "year": 2022,
+            "doi": "https://doi.org/10.1016/j.cattod.2022.05.027"
+        },
+        {
+            "title": "Tuning the surface reactivity of oxides by peroxide species",
+            "authors": "Y Zhu, J Wang, SB Patel, C Li, AR Head, JA Boscoboinik, G Zhou",
+            "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+            "year": 2023,
+            "doi": "https://doi.org/10.1073/pnas.2215189120"
+        },
+        {
+            "title": "Achieving Ultra-High Selectivity to Hydrogen Production from Formic Acid on Pd\u2013Ag Alloys",
+            "authors": "M Karatok, HT Ngan, X Jia, CR O\u2019Connor, JA Boscoboinik, DJ Stacchiola, P Sautet, RJ Madix",
+            "journal": "J. Amer. Chem. Soc.",
+            "year": 2023,
+            "doi": "https://doi.org/10.1021/jacs.2c11323"
+        },
+        {
+            "title": "Atomically visualizing cyclic self-refreshing of gas-oxide interfaces",
+            "authors": "X Sun, D Wu, W Zhu, Y Zhu, W Saidi, J Boscoboinik, J Yang, R Sharma, G Zhou",
+            "year": 2023,
+            "doi": "https://doi.org/10.21203/rs.3.rs-2521438/v1"
         }
     ]
 }
