@@ -49,6 +49,23 @@ body {
     width: 300px;
 }
 
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    width: 200px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+}
+
 .footer {
     background-color: #222;
     color: #fff;
