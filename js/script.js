@@ -1,4 +1,4 @@
-
+<!-- script.js -->
 document.addEventListener("DOMContentLoaded", function() {
     includeHTML();
     loadContent();
@@ -78,16 +78,13 @@ function generateContentHTML(data) {
 function generatePublicationsHTML(data) {
     let html = "";
     if (data.items && Array.isArray(data.items)) {
-        data.items.forEach(item => {
-            html += `<p>`;
+        data.items.forEach((item, index) => {
+            html += `<p style="text-align: left;">${index + 1}. <strong>${item.title}</strong>. `;
             if (item.authors) {
-                html += `${item.authors} `;
+                html += `${item.authors}, `;
             }
             if (item.year) {
                 html += `(${item.year}). `;
-            }
-            if (item.title) {
-                html += `<strong>${item.title}</strong>. `;
             }
             if (item.journal) {
                 html += `${item.journal}. `;
