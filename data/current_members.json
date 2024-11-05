@@ -1,6 +1,7 @@
 {
   "title": "Current Members",
-  "members": [
+    "description": "Visiting researchers currently collaborating with Tickle the Surface research group.",
+  "items": [
     {
       "name": "Dr. Anibal Boscoboinik",
       "position": "Principal Investigator",
