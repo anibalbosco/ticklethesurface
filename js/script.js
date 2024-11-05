@@ -39,7 +39,7 @@ function loadContent() {
                     if (pageId === "publications-content") {
                         element.innerHTML = generatePublicationsHTML(data);
                     } else {
-                        element.innerHTML = generateContentHTML(data);
+                        element.innerHTML = generateTeamContentHTML(data);
                     }
                 })
                 .catch(error => console.error('Error loading content:', error));
@@ -71,6 +71,29 @@ function generateContentHTML(data) {
             html += `</div>`;
         });
         html += "</div>";
+    }
+    return html;
+}
+
+function generateTeamContentHTML(data) {
+    let html = "";
+    if (data.items && Array.isArray(data.items)) {
+        data.items.forEach(item => {
+            html += `<div class='team-member'>`;
+            if (item.name) {
+                html += `<p><strong>${item.name}</strong></p>`;
+            }
+            if (item.position) {
+                html += `<p>${item.position}</p>`;
+            }
+            if (item.description) {
+                html += `<p>${item.description}</p>`;
+            }
+            if (item.linkedin) {
+                html += `<a href='${item.linkedin}' target='_blank'>LinkedIn Profile</a>`;
+            }
+            html += `</div>`;
+        });
     }
     return html;
 }
