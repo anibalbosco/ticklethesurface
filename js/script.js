@@ -80,6 +80,9 @@ function generateTeamContentHTML(data) {
     if (data.items && Array.isArray(data.items)) {
         data.items.forEach(item => {
             html += `<div class='team-member'>`;
+            if (item.image) {
+                html += `<img src='${item.image}' alt='${item.name}' class='team-member-image'>`;
+            }
             if (item.name) {
                 html += `<p><strong>${item.name}</strong></p>`;
             }
@@ -119,4 +122,32 @@ function generatePublicationsHTML(data) {
         });
     }
     return html;
+}
+
+/* Updated CSS for Team Section */
+/* styles.css */
+.team-section {
+    margin-bottom: 40px;
+}
+
+.team-member {
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    text-align: left;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.team-member-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    margin: 5px 0;
 }
