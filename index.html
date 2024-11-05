@@ -1,92 +1,23 @@
+<!-- Main Index Page (index.html) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tickle the Surface - where light gently tickles the surface to make it laugh out its secrets</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <title>Tickle the Surface - Surface Science Research Group</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <h1>Tickle the Surface</h1>
-        <nav class="nav">
-            <ul>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#people">People</a></li>
-                <li><a href="#resources">Resources</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div data-include="partials/header.html"></div>
     
     <main>
-        <section id="research" class="section">
-            <h2>Our Research</h2>
-            <p>We are advancing the field of surface science with three main ongoing research projects:</p>
-            <div class="research-cards">
-                <div class="card">
-                    <h3>Project 1: Catalysis and Surface Reactions</h3>
-                    <p>Investigating catalytic reactions at the atomic level to understand mechanisms of energy conversion.</p>
-                </div>
-                <div class="card">
-                    <h3>Project 2: Surface Passivation Mechanisms</h3>
-                    <p>Studying the passivation of reactive surfaces to prevent corrosion and other degradation processes.</p>
-                </div>
-                <div class="card">
-                    <h3>Project 3: Novel Instrumentation Development</h3>
-                    <p>Developing new tools and modifying existing ones to probe surfaces in ways never before possible.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="publications" class="section">
-            <h2>Publications</h2>
-            <p>Explore our latest research findings published in peer-reviewed journals.</p>
-            <ul class="publications-list">
-                <li><a href="#">Title of Paper 1 - Journal Name</a></li>
-                <li><a href="#">Title of Paper 2 - Journal Name</a></li>
-                <li><a href="#">Title of Paper 3 - Journal Name</a></li>
-                <!-- Add more publications as needed -->
-            </ul>
-        </section>
-
-        <section id="people" class="section">
-            <h2>Our Team</h2>
-            <div class="team">
-                <div class="team-member">
-                    <img src="images/team1.jpg" alt="Team Member 1">
-                    <h3>Dr. Anibal Boscoboinik</h3>
-                    <p>Principal Investigator - Surface Science Specialist</p>
-                </div>
-                <div class="team-member">
-                    <img src="images/team2.jpg" alt="Team Member 2">
-                    <h3>Jane Doe</h3>
-                    <p>Postdoctoral Researcher - Instrumentation Development</p>
-                </div>
-                <div class="team-member">
-                    <img src="images/team3.jpg" alt="Team Member 3">
-                    <h3>John Smith</h3>
-                    <p>PhD Student - Catalysis and Surface Reactions</p>
-                </div>
-                <!-- Add more team members as needed -->
-            </div>
-        </section>
-
-        <section id="resources" class="section">
-            <h2>Useful Resources</h2>
-            <ul class="resources-list">
-                <li><a href="https://www.avs.org" target="_blank">American Vacuum Society (AVS)</a></li>
-                <li><a href="https://www.nature.com" target="_blank">Nature Journal</a></li>
-                <li><a href="https://pubs.acs.org" target="_blank">ACS Publications</a></li>
-                <!-- Add more resources as needed -->
-            </ul>
+        <section class="section" id="main-content">
+            <!-- Content will be dynamically loaded here -->
         </section>
     </main>
 
-    <footer class="footer">
-        <p>&copy; 2024 Tickle the Surface Research Group. All rights reserved.</p>
-    </footer>
+    <div data-include="partials/footer.html"></div>
 </body>
 </html>
