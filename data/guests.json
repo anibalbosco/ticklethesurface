@@ -1,0 +1,20 @@
+{
+    "title": "Guests",
+    "description": "Visiting researchers currently collaborating with Tickle the Surface research group.",
+    "items": [
+        {
+            "name": "Alice Johnson",
+            "position": "Visiting Researcher",
+            "description": "From DEF University, focusing on surface reactivity studies.",
+            "linkedin": "https://www.linkedin.com/in/alice-johnson/",
+            "image": "images/alice_johnson.jpg"
+        },
+        {
+            "name": "Bob Brown",
+            "position": "Guest PhD Student",
+            "description": "Visiting from GHI University to work on catalysis projects.",
+            "linkedin": "https://www.linkedin.com/in/bob-brown/",
+            "image": "images/bob_brown.jpg"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "title": "Alumni",
+    "description": "Former members of Tickle the Surface research group.",
+    "items": [
+        {
+            "name": "Jane Doe",
+            "position": "Former PhD Student",
+            "description": "Now working at ABC University as a postdoctoral researcher.",
+            "linkedin": "https://www.linkedin.com/in/jane-doe/",
+            "image": "images/jane_doe.jpg"
+        },
+        {
+            "name": "John Smith",
+            "position": "Former Research Associate",
+            "description": "Currently employed at XYZ Corporation in the R&D department.",
+            "linkedin": "https://www.linkedin.com/in/john-smith/",
+            "image": "images/john_smith.jpg"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "title": "Past Guests",
+    "description": "Researchers who have previously collaborated with Tickle the Surface research group.",
+    "items": [
+        {
+            "name": "Clara Evans",
+            "position": "Former Visiting Researcher",
+            "description": "Visited from JKL University to conduct collaborative experiments.",
+            "linkedin": "https://www.linkedin.com/in/clara-evans/",
+            "image": "images/clara_evans.jpg"
+        },
+        {
+            "name": "David Lee",
+            "position": "Former Guest Research Scientist",
+            "description": "Worked with the group for six months on advanced spectroscopy.",
+            "linkedin": "https://www.linkedin.com/in/david-lee/",
+            "image": "images/david_lee.jpg"
+        }
+    ]
+}
