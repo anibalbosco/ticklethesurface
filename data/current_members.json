@@ -1,0 +1,47 @@
+{
+  "title": "Current Members",
+  "members": [
+    {
+      "name": "Dr. Anibal Boscoboinik",
+      "position": "Principal Investigator",
+      "description": "Materials Scientist at the Center for Functional Nanomaterials, Brookhaven National Laboratory, and Adjunct Professor at Stony Brook University. Specializes in surface science and nanotechnology.",
+      "image": "images/anibal_boscoboinik.jpg",
+      "linkedin": "https://www.linkedin.com/in/anibal-boscoboinik-6aa85123/"
+    },
+    {
+      "name": "Laiba Bilal",
+      "position": "Research Assistant",
+      "description": "Graduate student at Stony Brook University with a focus on surface science research.",
+      "image": "images/laiba_bilal.jpg",
+      "linkedin": "https://www.linkedin.com/in/laiba-bilal-zenvee-pillay/"
+    },
+    {
+      "name": "Sayantani Sikder",
+      "position": "Research Assistant",
+      "description": "Graduate student specializing in surface science experiments and instrumentation development.",
+      "image": "images/sayantani_sikder.jpg",
+      "linkedin": "https://www.linkedin.com/in/sayantani-sikder-049b6717b/"
+    },
+    {
+      "name": "Steven Arias",
+      "position": "Research Associate",
+      "description": "Research Associate at Brookhaven National Laboratory with expertise in materials science.",
+      "image": "images/steven_arias.jpg",
+      "linkedin": "https://www.linkedin.com/in/steven-arias-141b3a100/"
+    },
+    {
+      "name": "Eliseo Perez Gomez",
+      "position": "Research Assistant",
+      "description": "Graduate student involved in surface science research projects.",
+      "image": "images/eliseo_perez_gomez.jpg",
+      "linkedin": "https://www.linkedin.com/in/eliseo-perez-gomez-209a26264/"
+    },
+    {
+      "name": "Victoria Lily Su",
+      "position": "Research Assistant",
+      "description": "Graduate student focusing on the development of new surface science experiments.",
+      "image": "images/victoria_lily_su.jpg",
+      "linkedin": "https://www.linkedin.com/in/victoria-lily-su/"
+    }
+  ]
+}
