@@ -1,0 +1,18 @@
+
+{
+    "title": "Useful Resources",
+    "items": [
+        {
+            "title": "American Vacuum Society (AVS)",
+            "link": "https://www.avs.org"
+        },
+        {
+            "title": "Nature Journal",
+            "link": "https://www.nature.com"
+        },
+        {
+            "title": "ACS Publications",
+            "link": "https://pubs.acs.org"
+        }
+    ]
+}

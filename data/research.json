@@ -1,0 +1,19 @@
+
+{
+    "title": "Our Research",
+    "description": "We are advancing the field of surface science with three main ongoing research projects:",
+    "items": [
+        {
+            "title": "Project 1: Catalysis and Surface Reactions",
+            "description": "Investigating catalytic reactions at the atomic level to understand mechanisms of energy conversion."
+        },
+        {
+            "title": "Project 2: Surface Passivation Mechanisms",
+            "description": "Studying the passivation of reactive surfaces to prevent corrosion and other degradation processes."
+        },
+        {
+            "title": "Project 3: Novel Instrumentation Development",
+            "description": "Developing new tools and modifying existing ones to probe surfaces in ways never before possible."
+        }
+    ]
+}

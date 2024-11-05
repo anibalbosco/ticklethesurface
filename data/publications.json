@@ -1,0 +1,19 @@
+
+{
+    "title": "Publications",
+    "description": "Explore our latest research findings published in peer-reviewed journals.",
+    "items": [
+        {
+            "title": "Title of Paper 1 - Journal Name",
+            "link": "#"
+        },
+        {
+            "title": "Title of Paper 2 - Journal Name",
+            "link": "#"
+        },
+        {
+            "title": "Title of Paper 3 - Journal Name",
+            "link": "#"
+        }
+    ]
+}
