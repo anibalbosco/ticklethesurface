@@ -1,0 +1,19 @@
+
+{
+    "title": "Press and Media",
+    "description": "Read about our group's latest appearances in press and media.",
+    "items": [
+        {
+            "title": "Press Release 1 - Science Daily",
+            "link": "#"
+        },
+        {
+            "title": "Interview with Dr. Boscoboinik - Surface Insights Podcast",
+            "link": "#"
+        },
+        {
+            "title": "Article in Nature about Surface Research",
+            "link": "#"
+        }
+    ]
+}
