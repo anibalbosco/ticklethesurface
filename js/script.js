@@ -36,7 +36,11 @@ function loadContent() {
             fetch(pageIdToJsonFile[pageId])
                 .then(response => response.json())
                 .then(data => {
-                    element.innerHTML = generateContentHTML(data);
+                    if (pageId === "publications-content") {
+                        element.innerHTML = generatePublicationsHTML(data);
+                    } else {
+                        element.innerHTML = generateContentHTML(data);
+                    }
                 })
                 .catch(error => console.error('Error loading content:', error));
         }
@@ -67,6 +71,32 @@ function generateContentHTML(data) {
             html += `</div>`;
         });
         html += "</div>";
+    }
+    return html;
+}
+
+function generatePublicationsHTML(data) {
+    let html = "";
+    if (data.items && Array.isArray(data.items)) {
+        data.items.forEach(item => {
+            html += `<p>`;
+            if (item.authors) {
+                html += `${item.authors} `;
+            }
+            if (item.year) {
+                html += `(${item.year}). `;
+            }
+            if (item.title) {
+                html += `<strong>${item.title}</strong>. `;
+            }
+            if (item.journal) {
+                html += `${item.journal}. `;
+            }
+            if (item.doi) {
+                html += `<a href='${item.doi}' target='_blank'>${item.doi}</a>`;
+            }
+            html += `</p>`;
+        });
     }
     return html;
 }
